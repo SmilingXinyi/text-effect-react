@@ -50,7 +50,7 @@
         }
     },
     "storybook-deployer": {
-        "gitUsername": "GitHub Pages Bot",
+        "gitUsername": "微笑の辛翼",
         "gitEmail": "smilingxinyi@gmail.com",
         "commitMessage": "deploy storybook to github pages"
     }
