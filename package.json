@@ -8,7 +8,8 @@
         "sb": "start-storybook -p 6006",
         "bsb": "build-storybook",
         "commit": "npx git-cz",
-        "lint": "eslint"
+        "lint": "eslint",
+        "deploy-storybook": "storybook-to-ghpages"
     },
     "repository": {
         "type": "git",
@@ -30,6 +31,7 @@
         "@storybook/addon-storysource": "^5.3.18",
         "@storybook/addons": "^5.3.18",
         "@storybook/react": "^5.3.18",
+        "@storybook/storybook-deployer": "^2.8.5",
         "babel-loader": "^8.1.0",
         "commitizen": "^4.0.4",
         "cz-conventional-changelog": "^3.1.0",
@@ -46,5 +48,10 @@
         "hooks": {
             "pre-commit": "npm run lint"
         }
+    },
+    "storybook-deployer": {
+        "gitUsername": "GH Pages Bot",
+        "gitEmail": "hello@ghbot.com",
+        "commitMessage": "deploy storybook to github pages"
     }
 }
