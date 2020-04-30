@@ -33,4 +33,4 @@ jobs:
     - name: Run a multi-line script
       run: |
         echo Add other actions to build,
-        npm run deploy-storybook -- --branch=gh-pages
+        npm run deploy-storybook -- --branch=gh-pages --host-token-env-variable=ACCESS_TOKEN
