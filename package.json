@@ -50,8 +50,8 @@
         }
     },
     "storybook-deployer": {
-        "gitUsername": "GH Pages Bot",
-        "gitEmail": "hello@ghbot.com",
+        "gitUsername": "GitHub Pages Bot",
+        "gitEmail": "smilingxinyi@gmail.com",
         "commitMessage": "deploy storybook to github pages"
     }
 }
