@@ -30,8 +30,9 @@ jobs:
 
             -   name: Push
                 run: |
+                    git pull
                     git config user.email smilingxinyi@gmail.com
                     git config user.name Bot
                     git add .
                     git commit -m "deploy storybook to github pages"
-                    git push origin HEAD:gh-pages
+                    git push origin master:gh-pages -f
