@@ -34,5 +34,5 @@ jobs:
                     git config user.email smilingxinyi@gmail.com
                     git config user.name Bot
                     git add .
-                    git commit -m "docs(docs): deploy storybook to github pages"
+                    git commit -m "docs: deploy storybook to github pages"
                     git push
