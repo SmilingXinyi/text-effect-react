@@ -6,10 +6,9 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "sb": "start-storybook -p 6006",
-        "bsb": "build-storybook",
-        "commit": "npx git-cz",
-        "lint": "eslint .",
-        "deploy-storybook": "storybook-to-ghpages"
+        "bsb": "build-storybook -o docs",
+        "cz": "npx git-cz",
+        "lint": "eslint ."
     },
     "repository": {
         "type": "git",
